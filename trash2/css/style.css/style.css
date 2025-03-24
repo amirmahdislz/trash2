@@ -1,0 +1,25 @@
+@font-face{
+    font-family: inter;
+    src: url("../extras/otf/Inter-Black.otf")  format(otf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url("../extras/ttf/Inter-Black.ttf")  format("ttf");
+}
+
+
+@font-face{
+    font-family: inter;
+    src: url("../extras/woff-hinted/Inter-Black.woff2") format("woff2");
+}
+
+.container{
+    font-family: inter;
+}
+
+@media only screen and (orientaion: landscape){
+    body{
+        background-color: gray;
+    }
+}
